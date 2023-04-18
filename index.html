@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Maquetado Estatico</title>
+    
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/c606a2b658.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="ASSETS/CSS/style.css">
+  </head>
+  <body>
+    <!--Barra de nav-->
+    <nav class="navbar navbar-expand-lg bg-primary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="ASSETS/IMG/APLogo-20-20.png" alt="" width="20%">
+          </a>
+          <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><a href="https://github.com/y4mh1l4" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a></li>
+          <li class="list-group-item"><a href="https://z-p15.www.instagram.com/gishell__" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+          <li class="list-group-item"><a href="https://www.linkedin.com/in/yamilaP0101" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+          <li class="list-group-item"><a href="https://www.facebook.com/Gyselle33" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+          <!-- Button trigger modal -->
+          <li class="list-group-item">
+            <i class="fa-solid fa-user-lock fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            </i>
+          </li>
+        </ul>
+      </nav>
+  
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="Bienvenido" class="modal-title" id="exampleModalLabel"><b>Bienvenido</b></h3>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="mb-3 row lg-3">
+                <label for="staticEmail" class="text-danger" class="col-sm-2 col-form-label"><i class="fa-solid fa-envelope fa-2x"></i></label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="staticEmail" placeholder="Escribe tu email...">
+                </div>
+              </div>
+              <div class="mb-3 row lg-3">
+                <label for="inputPassword" class="text-danger" class="col-sm-2 col-form-label"><i class="fa-solid fa-key fa-2x"></i></label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword" placeholder="Escribe tu Contraseña...">
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+             <button type="button" class="btn btn-outline-info"><a href="/maqueta-HTML-y-bootstrap-1/Maqueta/intro.html"><i class="fa-solid fa-share-from-square"></i> Cerrar sesión</a></button>
+             <button type="button" class="btn btn-inicio"><i class="fa-solid fa-right-to-bracket"></i> Iniciar sesión</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!--Fondo Video-->
+     <video class="video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="assets/IMG/video.mp4" type="video/mp4"></video> 
+
+    <!--banner-->
+    <div class="container justify-content-center">
+      <img src="../Maqueta/assets/IMG/banner01.jpg" class="d-block w-100">
+    </div>
+
+    <!--Perfil--> 
+    <section id="sobre-mi" class="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-8">
+            <div class="upload"> 
+              <img src="assets/IMG/perfil.jpg" class="rounded-circle w-100">
+            </div>
+            <div class="nombre-apellido"  data-aos="fade-down">
+            <h1 class="text-center">Yamila Gisele Peña</h1>
+            <h4 class="text-white">Full Stack Web Jr</h4>
+          </div>
+        </div>
+      </section>
+      
+      <!--sobre mi-->
+      <section>
+        <div class="col-12  pt-5">
+          <div class="info-mi"data-aos="fade-up" data-aos-duration="3500">
+            <h3><span class="text-center"><b>Acerca de Mí</b>
+            </br></br>
+                Buenas! Me llamo Yamila tengo 25 años, soy de Laguna Naineck-Formosa,
+                hace 2 años me gradué como Profesora de Biología. Actualmente trabajo en una Institución Educativa del Nivel Secundaria como Preceptor administrativo. 
+                También brindo  servicio técnico en reparación de Computadoras de manera independiente.
+                Desde mí adolescencia siempre me han gustado todo lo relacionado a las tecnologías, y siempre estoy en constante aprendizaje 
+                de manera autodidacta, me intersa adentrarme en el área del Desarollo Web y Pentesting en Seguridad Informática. </span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Section Experiencia-->
+    <section>
+      <div class="container">
+      <div class="section-head">
+      <h2 class="text-center">Conocimientos</h2>
+    </div>
+    <div class="section-inner">
+      <div class="section-resume-wrap">
+        <div class="section-experience mb-5" >
+          <div class="row">
+            <div class="col-lg-3">
+              <h2 class="section-subHead mb-4"><b>Mi Experiencia</b></h2>
+            </div>
+            <div class="col-lg-9" data-aos="fade-up" data-aos-duration="3500">
+              <div class="ExperienceList b-box p-4">
+                <div class="row align-items-center">
+                  <div class="col-3 col-md-3 pb-3 pb-md-0">
+                    <img src="assets/IMG/logo19.jpg" class="rounded-circle w-50">
+                    <h4><span class="text-primary"><b>EPES N°19 "Vuelta de Obligado"</b></span></h4>	
+                  </div>
+                  <div class="col-md-5 pb-2 pb-md-0">
+                    <h4 class="mb-3"><span class="text-info"><b>Preceptor Administrativo</b></span></h4>
+                    <h5><span class="text-white">Mí rol como Preceptora dentro del sistema educativo es cumplir el área administrativo y pedagógico.Estableciendo cierto orden en su forma de actuar y dirigirme con los estudiantes.
+                      En este sentido, la función es la de contener a los alumnos, cuidar la disciplina y mantener el orden.</span></h5>
+                    </div>
+                    <div class="col-md-4 text-md-right"><h4><span class="text-info">02/03/2021 
+                       23/12/2022</span></h4></div>
+                  </div>
+                </div>
+                <div class="ExperienceList b-box p-4 ">
+                  <div class="row align-items-center">
+                    <div class="col-3 col-md-3 pb-3 pb-md-0">
+                      <img src="assets/IMG/logorep.jpg" class="rounded-circle w-50">
+                      <h4><span class="text-primary"><b>PgService Computer</b></span></h4>
+                    </div>
+                    <div class="col-md-5 pb-2 pb-md-0">
+                      <h4 class="mb-3"><span class="text-info"><b>Técnico en Reparación de Pc</b></span></h4>
+                      <h5><span class="text-white">PgService Computer de uno de mis oficios que llevo a cabo de manera independiente. Doy servicio a los clientes un soporte por diferentes medios para buscar una solución al problema del mismo, ya sean físicas (hardware) o lógicas (software) de cualquier tipo de laptop y Pc.</span></h5>
+                    </div>
+                    <div class="col-md-4 text-md-right"><h4><span class="text-info">05/09/2020 
+                       15/01/2023</span></h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="ExperienceList b-box p-4">
+                  <div class="row align-items-center">
+                    <div class="col-3 col-md-3 pb-3 pb-md-0">
+                      <img src="assets/IMG/proyecto4.jpg" class="rounded-circle w-50">
+                      <h3><span class="text-primary"><b>GoCode</b></span></h3>
+                    </div>
+                    <div class="col-md-5 pb-2 pb-md-0">
+                      <h4 class="mb-3"><span class="text-info"><b>Marketing Digital</b></span></h4>
+                      <h4><span class="text-white">Mí función dentro de esta empresa es promocionar los servicios de crear páginas WEB que ofrecen a través de sus distintas redes sociales, con el objetivo de llegar a más personas.</span></h5>
+                      </div>
+                      <div class="col-md-4 text-md-right"><h4><span class="text-info">01/08/2022 
+                         20/12/2022</span></h4>      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ExperienceList b-box p-4">
+                    <div class="row align-items-center">
+                      <div class="col-3 col-md-3 pb-3 pb-md-0">
+                        <img src="assets/IMG/cult.jpg" class="rounded-circle w-50">
+                        <h4><span class="text-primary"><b>Dirección de Cultura y Comunicación</b></span></h4>
+                      </div>
+                      <div class="col-md-5 pb-2 pb-md-0">
+                        <h4 class="mb-3"><span class="text-info"><b>Gestor Cultural</b></span></h4>
+                        <h5><span class="text-white">La Dirección de Cultura y Comunicación es un organismo público de la  Municipalidad de Laguna Naineck y del Ministerio de Cultura de Argentina. Mi función como gestora en el entorno local es promocionar y planificar: eventos, teatros, festivales, orquestas y galeria de arte.</span></h5>
+                      </div>
+                      <div class="col-md-4 text-md-right"><h4><span class="text-info">15/02/2017 
+                         20/10/2020</span></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!--Seccion de Educacion-->
+  <section>
+  <div class="container">
+  <div class="section-education">
+    <div class="row">
+      <div class="col-lg-3">
+        <h2 class="section-subHead mb-4"><b>Formación</b></h2>
+      </div>
+      <div class="col-lg-9" data-aos="fade-up"
+      data-aos-duration="3500">
+        <div class="EducationList">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="resume-list b-box p-4 mb-4 ">
+                <div>
+                  <h4><span class="text-primary"><b>I.S.F.D.C y T Laguna Naineck</b></span></h4>
+                  <img src="assets/IMG/logo18.jpg" class="rounded-circle w-50">
+                  <br>
+                  <h5 class="d-inline-block my-3"><span class="text-info">03/03/2015-29/12/2020</span></h5>
+                  <h4><span class="text-white">Profesorado para la Educación Secundaria en Biología.</span></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="resume-list b-box p-4 mb-4 ">
+                <div>
+                  <h4><span class="text-primary"><b>ISFDC y T Cristóbal Aguirre</b></span></h4>
+                  <img src="assets/IMG/logo20.jpg" class="rounded-circle w-50">
+                  <br>
+                  <h5 class="d-inline-block my-3"><span class="text-info">02/03/2021-15/12/2022</span></h5>
+                  <h4><span class="text-white">Técnico en Desarrollador de Software.</span></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="resume-list b-box p-4 mb-4 ">
+                <div>
+                  <h4><span class="text-primary"><b>NEP y FP N°41</b></span></h4>
+                  <img src="assets/IMG/logo41.jpg" class="rounded-circle w-50">
+                  <br>
+                  <h5 class="d-inline-block my-3"><span class="text-info">05/03/2016-12/12/2019</span></h5>
+                  <h4><span class="text-white">Operador Informático.<br>Instalador Electricista.<br>Reparador y Armador de Pc.</span></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="resume-list b-box p-4 mb-4 ">
+                <div>
+                  <h4><span class="text-primary"><b>Argentina Programa</b></span></h4>
+                  <img src="assets/IMG/logo21.png" class="rounded-circle w-50">
+                  <br>
+                  <h5 class="d-inline-block my-3"><span class="text-info">01/04/2022-11/06/2022</span></h5>
+                  <h4><span class="text-white">1ra Séprogramar| Fundamentación.<br>2da Yoprogramo|Full-Stack web</span></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Seccion de Capacitacion-->
+<div class="container">
+  <div class="section-education">
+    <div class="row">
+      <div class="col-lg-3">
+        <h2 class="section-subHead mb-4"><b>Capacitación</b></h2>
+      </div>
+      <div class="col-lg-9" data-aos="fade-up"
+            data-aos-duration="3500">
+              <div class="EducationList">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="resume-list b-box p-4 mb-4 ">
+                      <div>
+                        <div>
+                          <img src="assets/IMG/certificado01.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">22/03/2022</span></h5>
+                          <h4><span class="text-white">Crear Web con HTML y CSS</span></h4>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="resume-list b-box p-4 mb-4 ">
+                        <div>
+                          <img src="assets/IMG/certificado02.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">15/10/2021</span></h5>
+                          <h4><span class="text-white">Fundamento de Programación</span></h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="resume-list b-box p-4 mb-4 ">
+                        <div>
+                          <img src="assets/IMG/certificado03.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">03/07/2022</span></h5>
+                          <h4><span class="text-white">Introducción a la Programacón</span></h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="resume-list b-box p-4 mb-4 ">
+                        <div>
+                          <img src="assets/IMG/certificado04.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">28/10/2021</span></h5>
+                          <h4><span class="text-white">Diseño de Página WEB</span></h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="resume-list b-box p-4 mb-4 ">
+                        <div>
+                          <img src="assets/IMG/certificado05.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">07/09/2021</span></h5>
+                          <h4><span class="text-white">Programación Básica.</span></h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="resume-list b-box p-4 mb-4 ">
+                        <div>
+                          <img src="assets/IMG/certificado06.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">19/02/2022</span></h5>
+                          <h4><span class="text-white">Hacking de Redes WIFI</span></h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="resume-list b-box p-4 mb-4 ">
+                        <div>
+                          <img src="assets/IMG/certificado07.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">27/03/2021</span></h5>
+                          <h4><span class="text-white">Hacking Ético</span></h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="resume-list b-box p-4 mb-4 ">
+                        <div>
+                          <img src="assets/IMG/certificado08.jpg" width="350px" height="250px">
+                          <br>
+                          <h5 class="d-inline-block my-3"><span class="text-info">11/06/2022</span></h5>
+                          <h4><span class="text-white">Séprogramar</span></h4>
+                        </div>
+                      </div>
+                    </div>
+            
+                          <!--Seccion de Habilidades-->
+                          <section>
+                            <div class="caja-barras" data-aos="zoom-in">
+                              <div class="container justify-content-center">
+                                <div class="row">
+                                  <div class="col-9">
+                                    <div class="contenedor">
+                                      <h2>MIS HABILIDADES</h2>
+                                    </br></br>
+
+                                    <div class="skills">
+                                      <div class="detalles">
+                                        <span>HTML</span>
+                                        <span>90%</span></div>
+                                        
+                                        <div class="menu">
+                                          <div id="html-menu"></div>
+                                        </div>
+                                      </div>
+                                      
+                                      <div class="skills">
+                                        <div class="detalles">
+                                          <span>CSS</span>
+                                          <span>75%</span>
+                                        </div>
+                                        <div class="menu">
+                                          <div id="css-menu"></div>
+                                        </div>
+                                      </div>
+                                      
+                                      <div class="skills">
+                                        <div class="detalles">
+                                          <span>JAVASCRIPT</span>
+                                          <span>60%</span>
+                                        </div>
+                                        <div class="menu">
+                                          <div id="js-menu"></div>
+                                        </div>
+                                      </div>
+                                      
+                                      <div class="skills">
+                                        <div class="detalles">
+                                          <span>PYTHON</span>
+                                          <span>30%</span>
+                                        </div>
+                                        <div class="menu">
+                                          <div id="python-menu"></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    
+                    <!--seccion de Proyectos-->
+                    <div class="container text-center pt-5">
+                      <h2 class="titulo"><b>Proyectos</b></h2>
+                    </br>
+                    <div class="card-group mt-3" data-aos="fade-down">
+                      <div class="tarjeta">
+                        <div class="subtitulo"><b>Mí primera Página Web</b></div>
+                        <div class="cuerpo">
+                          <img src="ASSETS/IMG/proyecto1.png" width="400px" height="250px">
+                          <!-- Date, Category of the Project -->
+                          <p><span class="text-white">Datos:&nbsp; 5/05/2020</span></p>
+                          <p><span class="text-white">Categoria:&nbsp; Diseño en wordpress</span></p>
+                        </div>
+                        <div class="pie">
+                          <a href="https://primera-pagina-39721.000webhostapp.com/" target="_blank">Ir a la Página</a>
+                        </div>
+                      </div>
+                      <div class="tarjeta">
+                        <div class="subtitulo"><b>Blog de Comidas Típicas</b></div>
+                        <div class="cuerpo">
+                          <img src="ASSETS/IMG/proyecto2.jpg"  width="400px" height="250px">
+                          <!-- Date, Category of the Project -->
+                          <p><span class="text-white">Datos:&nbsp; 28/02/2022</span></p>
+                          <p><span class="text-white">Categoria:&nbsp; HTML5 y CSS3</span></p>
+                        </div>
+                        <div class="pie">
+                          <a href="http://blogdecomidas.260mb.net/" target="_blank">Ir a la Página</a>
+                        </div>
+                      </div>
+                      <div class="tarjeta">
+                        <div class="subtitulo"><b>Carta de Menu</b></div>
+                        <div class="cuerpo">
+                          <img src="ASSETS/IMG/proyecto3.jpg"  width="400px" height="250px">
+                          <!-- Date, Category of the Project -->
+                          <p><span class="text-white">Datos:&nbsp; 11/06/2021</span></p>
+                          <p><span class="text-white">Categoria:&nbsp; HTML y CSS</span></p>
+                        </div>
+                        <div class="pie">
+                          <a href="https://cartayoha.000webhostapp.com/index.html" target="_blank">Ir a la Página</a>
+                        </div>
+                      </div>
+                      <div class="tarjeta">
+                        <div class="subtitulo"><b>GO CODE</b></div>
+                        <div class="cuerpo">
+                          <img src="ASSETS/IMG/proyecto4.jpg"  width="400px" height="250px">
+                          <!-- Date, Category of the Project -->
+                          <p><span class="text-white">Datos:&nbsp; 25/08/2022</span></p>
+                          <p><span class="text-white">Poryecto con la Comunidad de programadores</span></p>
+                        </div>
+                        <div class="pie">
+                          <a href="https://www.gocode.ar/" target="_blank">Ir a la Página</a>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  
+                  <!--Pie de Pagina-->
+                  <footer>
+                    <i class="fa-regular fa-registered"></i>Peña Yamila Gisele &copy;2022 <br>
+                    <i class="fa-solid fa-envelope"></i>Email: giselleya96@gmail.com <br>
+                  </footer>
+                  
+                  <!-- JavaScript Bundle with Popper -->
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+                  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+                  crossorigin="anonymous"></script>
+                </body>
+                </html>
